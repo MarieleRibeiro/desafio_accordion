@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const AccordionSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  margin-top: 0.5rem;
-`;
 export const Container = styled.div`
   width: 50%;
   top: 30%;
