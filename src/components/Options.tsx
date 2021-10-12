@@ -1,4 +1,4 @@
-export const Options = [
+export const options = [
   {
     thinker: "Simone de Beauvoir",
     phrases:

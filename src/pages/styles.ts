@@ -5,8 +5,8 @@ export const AccordionSection = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background: #fff;
+  margin-top: 0.5rem;
 `;
 export const Container = styled.div`
   width: 50%;
