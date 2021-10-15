@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 50%;
+  max-width: 50%;
+  width: 100%;
   top: 30%;
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 `;
@@ -18,8 +19,11 @@ export const Wrapper = styled.div`
     padding: 1.5rem;
     font-size: 1.5rem;
   }
-  span {
+  button {
     margin-right: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
   }
 `;
 export const Dropdown = styled.div`
@@ -31,6 +35,7 @@ export const Dropdown = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1rem;
+
   p {
     font-size: 1.2rem;
   }
